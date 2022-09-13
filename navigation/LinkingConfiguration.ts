@@ -25,6 +25,16 @@ const linking: LinkingOptions<RootStackParamList> = {
               TabTwoScreen: 'two',
             },
           },
+          Device: {
+            screens: {
+              DeviceSreen: 'addDev',
+            },
+          },
+          QrCodeScanner: {
+            screens: {
+              qrCodeScanner: 'qrCodeScan',
+            },
+          },
         },
       },
       Modal: 'modal',
